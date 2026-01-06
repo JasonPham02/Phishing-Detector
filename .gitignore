@@ -1,0 +1,17 @@
+# ignore test file
+backend/test_model.py
+
+# ignore python venvs
+backend/venv/
+backend/.venv/
+.venv/
+
+# python/cache
+__pycache__/
+*.py[cod]
+
+# env/secrets
+.env
+
+# mac
+.DS_Store
