@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function(){
         
         result_div.textContent = "Analyzing..."
 
-        fetch('http://127.0.0.1:5000/predict', {
+        fetch(`${CONFIG.API_URL}/predict`, {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({url: urlToCheck})
@@ -29,8 +29,11 @@ document.addEventListener("DOMContentLoaded", function(){
 
             if (data['result:'] === "good"){
                 result_div.textContent = "GOOD";
+                result_div.classList.add('safe')
+
             } else if (data['result:'] === "bad"){
                 result_div.textContent = "BAD";
+                result_div.classList.add('bad')
             } else{
                 result_div.textContent = "UNKNOWN";
             }
