@@ -15,3 +15,7 @@ __pycache__/
 
 # mac
 .DS_Store
+
+#ignore config_local
+extension/config_local.js
+
