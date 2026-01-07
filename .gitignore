@@ -16,10 +16,14 @@ __pycache__/
 # mac
 .DS_Store
 
+# IDE settings
+.vscode/
+
 #ignore config_local
 extension/config_local.js
 
-.vscode
+
+
 
 #config local/dev
 extension/config_local.js
