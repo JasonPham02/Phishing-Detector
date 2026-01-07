@@ -19,3 +19,5 @@ __pycache__/
 #ignore config_local
 extension/config_local.js
 
+.vscode
+
