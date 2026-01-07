@@ -21,3 +21,6 @@ extension/config_local.js
 
 .vscode
 
+#config local/dev
+extension/config_local.js
+
