@@ -48,6 +48,14 @@ Since this project is currently in **Beta**, you can install it manually on any 
 5.  Select the `extension` folder from this project.
 6.  📌 **Pin** the extension and browse safely!
 
+## 💻 Run Locally
+```bash
+cd backend
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python app.py
+
 ---
 
 ## 🧠 How It Works (The "Brain")
@@ -56,3 +64,4 @@ Unlike standard ad-blockers that use a "blacklist" (a database of known bad site
 1.  **Feature Extraction:** The system breaks down a URL into "tokens" (e.g., `secure-login`, `apple-verify`, `.xyz`).
 2.  **Vectorization:** It converts these tokens into numerical data using **TF-IDF**.
 3.  **Prediction:** The trained model calculates the probability of the URL being malicious.
+
