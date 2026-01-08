@@ -15,8 +15,6 @@
 
 ## 📸 Demo
 <img width="690" height="474" alt="CleanShot 2026-01-08 at 15 23 59" src="https://github.com/user-attachments/assets/a739d9e2-4c19-4998-a711-16ddf354554b" />
-<img width="690" height="388" alt="CleanShot 2026-01-08 at 15 23 32" src="https://github.com/user-attachments/assets/0df48b59-7e90-4f60-a6e8-34c4826d4bd3" />
-
 
 ---
 
