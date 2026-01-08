@@ -28,3 +28,4 @@ extension/config_local.js
 #config local/dev
 extension/config_local.js
 
+.vscode/

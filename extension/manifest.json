@@ -1,5 +1,5 @@
 {
-  "name": "AI phishing detector",
+  "name": "SafeLink",
   "description": "Detects phishing URLs using AI",
   "version": "1.0",
   "manifest_version": 3,
@@ -8,6 +8,15 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "menu-burger.png"
+    "default_icon": {
+      "16": "icons/target16.png",
+      "48": "icons/target48.png",
+      "128": "icons/target128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/target16.png",
+    "48": "icons/target48.png",
+    "128": "icons/target128.png"
   }
 }
