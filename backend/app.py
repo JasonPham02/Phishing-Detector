@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import joblib
 
+
 app = Flask(__name__)
 CORS(app)
 
@@ -21,6 +22,7 @@ def clean_url(url):
 
 @app.route('/predict', methods=['POST'])
 def predict():
+  
     data = request.json
     url_to_check = data.get('url', '')
     
