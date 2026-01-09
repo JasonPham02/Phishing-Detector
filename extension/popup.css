@@ -8,5 +8,15 @@ button {
 }
 button:hover { background-color: #45a049; }
 #result { margin-top: 20px; font-weight: bold; font-size: 20px; }
+#notice { margin-top: 20px; color: red; }
+.pulse {
+    animation: pulse 2.5s ease-in-out infinite;
+    opacity: 0.4;
+}
+@keyframes pulse{
+    0%, 100% {opacity: 0.4;}
+    50% {opacity: 1;}
+}
+
 .safe { color: #2ecc71; }
 .bad { color: #e74c3c; }
